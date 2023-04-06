@@ -1,0 +1,10 @@
+
+body {
+  background-image: url("Images/MountainBackgroundColour.png");
+  background-repeat: repeat;
+}
+
+.press_header
+{
+    background-color: #fff;
+}

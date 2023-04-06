@@ -1,0 +1,316 @@
+@font-face {
+
+  font-family: "LalezarWF";
+
+src: url("Fonts/Lalezar-Regular.otf");
+}
+
+@font-face {
+
+  font-family: "KanitWF";
+
+src: url("Fonts/Kanit-Regular.ttf");
+}
+
+body {
+  font-family: "KanitWF";
+  color: #210E6B;
+  background-color: #CCFEFE;
+  font-variant: normal;
+  background-image: url("Images/MountainBackground.png"), url("Images/MountainBackgroundColour.png");
+  background-repeat: repeat-x, repeat;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-size: 20px;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
+}
+
+.column-left {
+  float: left;
+  width: 33%;
+}
+
+.column-right {
+  float: right;
+  width: 33%;
+}
+
+.column-center {
+  display: inline-block;
+  width: 33%;
+}
+
+.halfscaledimage {
+  transform: scale(0.5);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.screenshots {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  transform: scale(0.5);
+}
+
+h1 {
+  font-family: "LalezarWF";
+  color: #210E6B;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font-size: 35px;
+  font-weight: normal;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
+}
+
+h2 {
+  font-size: large;
+  font-weight: normal;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
+}
+
+h3 {
+  font-family: "LalezarWF";
+  font-size: 26px;
+  color: #210E6B;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  font-weight: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
+}
+
+h4 {
+  font-family: "LalezarWF";
+  font-size: 26px;
+  color: #210E6B;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  font-weight: normal;
+  letter-spacing: normal;
+  word-spacing: normal;
+  display: inline;
+  -moz-text-size-adjust: 200%;
+  -webkit-text-size-adjust: 200%;
+  -ms-text-size-adjust: 200%;
+}
+
+form {
+  background-color: #CEE7EE;
+  margin-right: auto;
+  margin-left: auto;
+  width: 660px;
+  border-top-color: #210E6B;
+  border-right-color: #210E6B;
+  border-bottom-color: #210E6B;
+  border-left-color: #210E6B;
+  border-top-width: 4px;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-radius: 10px;
+  padding-top: 0px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+
+.txtbox {
+  width: 240px;
+}
+
+.field_label {
+  text-align: right;
+}
+
+.field_input {
+  text-align: left;
+}
+
+input {
+  font-family: "KanitWF";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-top-width: 4px;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #210E6B;
+  border-right-color: #210E6B;
+  border-bottom-color: #210E6B;
+  border-left-color: #210E6B;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  width: 300px;
+}
+
+input[type="email"] {
+  width: 300px;
+  border-top-width: 4px;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+
+input[type="text"]:focus {
+  border-top-color: #333333;
+  border-right-color: #333333;
+  border-bottom-color: #333333;
+  border-left-color: #333333;
+  border-top-width: 4px;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+
+input[type="submit"] {
+animation-name: flashanim;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+
+textarea
+{
+   font-size: 16px;
+}
+
+
+.attentiongrabberbutton {
+    animation-name: flashanim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.button {
+  font-family: "LalezarWF";
+  font-size: 26px;
+  color: #ffffff;
+  background-color: #63369e;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 1px;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  cursor: pointer;
+  border-radius: 12px;
+
+    position: relative;
+    border: none;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:active {
+  animation-name: buttonanimonclick;
+  animation-duration: 1s;
+}
+
+
+@keyframes buttonanimonclick {
+      from {
+        background-color: #DEDCF5;
+      }
+
+      50% {
+        background-color: #63369e;
+      }
+
+      to {
+        background-color: #DEDCF5;
+      }
+}
+
+@keyframes flashanim {
+      from {
+        background-color: #210E6B;
+      }
+
+      50% {
+        background-color: #DEDCF5;
+      }
+
+      to {
+        background-color: #210E6B;
+      }
+}
+
+@keyframes flashanimborder {
+      from {
+        border-color: #63369e;
+        background-color: #FFFFFF;
+      }
+
+      50% {
+        border-color: #DEDCF5;
+        background-color: #ccc9f2;
+      }
+
+      to {
+        border-color: #63369e;
+        background-color: #FFFFFF;
+      }
+}
+
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
